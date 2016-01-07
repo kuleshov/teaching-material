@@ -1,3 +1,11 @@
+# latex stuff
+*.aux
+*.synctex.gz
+*.pdf
+
+# ipython stuff
+*/.ipynb_checkpoints/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
