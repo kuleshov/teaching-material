@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+
+\topmargin 0.0cm
+\oddsidemargin 0.2cm
+\textwidth 16cm 
+\textheight 21cm
+\footskip 1.0cm
+
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+
+\newcommand{\Sc}{{\mathcal S}}
+
+\newtheorem{claim}{Claim}
+
+\title{Homework problem}
+\author{Volodymyr Kuleshov}
+\date{}
+%\date{June 6, 2012} % delete this line to display the current date
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+%\baselineskip24pt
+
+%\maketitle
+
+\maketitle
+
+\section{Question 1}
+
+Suppose you have a probability distribution $P$ over random variables $X_1,X_2,...,X_n$ which all take values in the set $\Sc = \{v_1,...,v_m\}$, where the $v_j$ are some distinct values (e.g. integers, letters).
+
+Suppose that $P$ satisfies the {\em Markov assumption}: for all $i \geq 2$ we have
+$$ P(x_i | x_{i-1}, ..., x_1) = P(x_i | x_{i-1}). $$
+In other words, $P$ factorizes as
+$$ P(x_1,x_2,...,x_n) = P(x_1) P(x_1|x_2) \cdots P(x_n|x_{n-1}). $$
+For each factor $P(x_i | x_{i-1})$ for $i\geq2$ you are given the probability $P(x_i = u | x_{i-1} = v)$ for each $u, v \in \Sc$ in the form of a $m \times m$ table. You are also given $P(x_1=v)$ for each $v$.
+
+\begin{itemize}
+\item Give an $O(m^2n)$ algorithm for solving the problem
+$$ \max_{x_1,x_2,...,x_n} P(x_1,x_2,...,x_n). $$
+Hint: think dynamic programming!
+\item (Bonus) Give an $O(m^2n)$ algorithm that computes the marginal probability
+$$ P(x_i) = \sum_{x_1,..., x_{i-1}, x_{i+1},...,x_n} P(x_1,..., x_{i-1}, x_i, x_{i+1},...,x_n) $$
+for any $i$.
+Hint: This algorithm will be very similar to your previous method, but you will have to do twice more work.
+\end{itemize}
+
+\end{document}
