@@ -1,4 +1,4 @@
-# Tutorials for Stanford cs228 and cs231n
+# Tutorials for Stanford cs228 and cs231n for Python 3.6
 
 Preparatory material for the probabilistic graphical models and the deep learning classes at Stanford.
 
