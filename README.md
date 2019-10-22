@@ -2,7 +2,7 @@
 
 Preparatory material for the probabilistic graphical models and the deep learning classes at Stanford.
 
-## Material
+## Material ##
 
 This repo currently holds:
 
