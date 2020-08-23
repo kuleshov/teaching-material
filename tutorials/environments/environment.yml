@@ -1,0 +1,11 @@
+name: np_tutorial_pv3
+
+dependencies:
+  - python=3.7
+  - jupyter
+  - matplotlib
+  - ipywidgets
+  - numpy
+  - scipy
+  - imageio
+  - scikit-image
