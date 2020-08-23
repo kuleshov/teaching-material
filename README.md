@@ -1,6 +1,8 @@
-# Tutorials for Stanford cs228 and cs231n
+# Python and Numpy Tutorials for Stanford and Cornell Courses
 
-Preparatory material for the probabilistic graphical models and the deep learning classes at Stanford.
+Preparatory material for machine learning courses at Stanford at Cornell. Covers Python and Numpy. This has been used for:
+* The probabilistic graphical models and the deep learning courses at Stanford.
+* The applied machine learning course and deep generative models courses at Cornell.
 
 ## Material
 
