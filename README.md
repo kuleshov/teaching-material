@@ -1,4 +1,4 @@
-# Python and Numpy Tutorials for Stanford and Cornell Courses
+# Tutorials for Machine Learning Courses at Stanford and Cornell
 
 Preparatory material for machine learning courses at Stanford at Cornell. Covers Python and Numpy. This has been used for:
 * The probabilistic graphical models and the deep learning courses at Stanford.
